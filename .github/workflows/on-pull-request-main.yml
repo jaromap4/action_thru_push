@@ -1,6 +1,6 @@
 name: Github Actions Example
 on:
-  merge:
+  pull_request:
     branches: 
         - main
 jobs:
